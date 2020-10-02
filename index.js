@@ -121,13 +121,3 @@ appDiv.innerHTML = `<h1>JS Starter</h1>`;
   console.table(users);
 }
 
-
-// 1. JavaScript specification doesn't specify any specific algorithm to implement array.sort. Different JS engine has different implementations with the same outcome.
-
-// 2. array.sort() => Ascending and converting to string and sort according to each characters's unicode point value.
-
-// 3. array.reverse() => Do not use it for for Sorting.
-
-// 4. Non-ASCII character Sorting
-
-// 5. Sorting an Object is on the property value
